@@ -1,18 +1,16 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+    <Sidebar />
 
-    <main>
-        <div class="top-row px-4">
+    <main class="main">
+        <div class="top-nav">
             <a href="https://github.com/usmonovshohruxmirzo/student-dashboard-blazor" target="_blank">Github</a>
         </div>
 
-        <article class="content px-4">
+        <section class="main-view">
             @Body
-        </article>
+        </section>
     </main>
 </div>
 

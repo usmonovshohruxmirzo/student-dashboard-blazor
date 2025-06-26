@@ -1,0 +1,56 @@
+﻿@inject NavigationManager Navigation
+
+<div class="sidebar">
+    <div class="sidebar-header">
+        <span class="sidebar-title">@pageName</span>
+    </div>
+
+    <nav class="sidebar-menu">
+        @foreach (NavItem item in MenuItems)
+        {
+            <NavLink class="sidebar-link" href="@item.Href" Match="@item.Match">
+                <i class="@item.IconClass me-2"></i>
+                @item.Text
+            </NavLink>
+        }
+    </nav>
+</div>
+
+@code {
+    public class NavItem
+    {
+        public string Text { get; set; }
+        public string IconClass { get; set; }
+        public string Href { get; set; }
+        public NavLinkMatch Match { get; set; } = NavLinkMatch.Prefix;
+    }
+
+    List<NavItem> MenuItems = new()
+    {
+        new NavItem { Text = "Home", Href = "", IconClass = "bi bi-house-door-fill", Match = NavLinkMatch.All },
+        new NavItem { Text = "Counter", Href = "counter", IconClass = "bi bi-plus-square-fill" },
+        new NavItem { Text = "Weather", Href = "weather", IconClass = "bi bi-list-nested" }
+    };
+
+    string pageName = "";
+
+    protected override void OnInitialized()
+    {
+        PageNameChanger();
+    }
+
+    void PageNameChanger()
+    {
+        var uri = Navigation.Uri;
+        var relativePath = Navigation.ToBaseRelativePath(uri);
+        if (string.IsNullOrEmpty(relativePath))
+        {
+            pageName = "Home";
+        }
+        else
+        {
+            string path = relativePath.Split("/")[0];
+            pageName = char.ToUpper(path[0]) + path[1..];
+        }
+    }
+}

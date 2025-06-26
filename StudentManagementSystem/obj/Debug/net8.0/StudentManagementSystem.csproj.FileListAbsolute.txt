@@ -18,7 +18,6 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\bundle\StudentManagementSystem.styles.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\projectbundle\StudentManagementSystem.bundle.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
@@ -31,3 +30,4 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.pdb
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.genruntimeconfig.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\ref\StudentManagementSystem.dll
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\Components\Layout\Sidebar.razor.rz.scp.css

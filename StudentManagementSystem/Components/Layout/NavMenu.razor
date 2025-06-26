@@ -1,6 +1,8 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject NavigationManager Navigation
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">StudentManagementSystem</a>
+        <a class="navbar-brand" href="">@pageName</a>
     </div>
 </div>
 
@@ -8,23 +10,53 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
+        @foreach (NavItem item in MenuItems)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="@item.Href" Match="@item.Match">
+                    <span class="@item.IconClass" aria-hidden="true"></span> @item.Match
+                </NavLink>
+            </div>
+        }
     </nav>
 </div>
 
+@code {
+    public class NavItem
+    {
+        public string Text { set; get; }
+        public string IconClass { set; get; }
+        public string Href { set; get; }
+        public NavLinkMatch Match { get; set; } = NavLinkMatch.Prefix;
+    }
+
+    List<NavItem> MenuItems = new()
+    {
+        new NavItem { Text = "Home", Href = "", IconClass = "bi bi-house-door-fill-nav-menu", Match = NavLinkMatch.All },
+        new NavItem { Text = "Counter", Href = "counter", IconClass = "bi bi-plus-square-fill-nav-menu" },
+        new NavItem { Text = "Weather", Href = "weather", IconClass = "bi bi-list-nested-nav-menu" }
+    };
+
+    string pageName = "";
+
+    protected override void OnInitialized()
+    {
+        PageNameChanger();
+    }
+
+    void PageNameChanger()
+    {
+        var uri = Navigation.Uri;
+        var relativePath = Navigation.ToBaseRelativePath(uri);
+
+        if (string.IsNullOrEmpty(relativePath))
+        {
+            pageName = "Home";
+        }
+        else
+        {
+            string path = relativePath.Split("/")[0];
+            pageName = char.ToUpper(path[0]) + path[1..];
+        }
+    }
+}

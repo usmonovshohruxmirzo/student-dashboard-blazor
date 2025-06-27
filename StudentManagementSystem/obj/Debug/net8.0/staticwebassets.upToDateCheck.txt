@@ -1,2 +1,2 @@
-wwwroot\app.css
 wwwroot\favicon.png
+wwwroot\app.css

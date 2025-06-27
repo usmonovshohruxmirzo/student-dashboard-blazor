@@ -12,37 +12,37 @@ section {
     overflow-y: scroll;
 }
 
-    section header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 40px;
-        position: sticky;
-        top: 0;
-        background-color: #EAEAF3;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0;
+    background-color: #EAEAF3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-        section header nav ul {
-            display: flex;
-            list-style: none;
-            gap: 10px;
-            margin: 0;
-            padding: 0;
-        }
+section header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
 
-            section header nav ul li {
-                padding: 15px 20px;
-                border-radius: 50px;
-                background-color: var(--primary);
-            }
+section header nav ul li {
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: var(--primary);
+}
 
-                section header nav ul li a {
-                    text-decoration: none;
-                    text-transform: capitalize;
-                    color: #fff;
-                }
+section header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
 
 .right {
     display: flex;
@@ -50,84 +50,84 @@ section {
 }
 
 
-    .right button {
-        padding: 20px;
-        height: 50px;
-        border-radius: 50px;
-        border: none;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        font-size: 18px;
-    }
+.right button {
+    padding: 20px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
 
-    .right .theme-switcher {
-        width: 100px;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-    }
+.right .theme-switcher {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 
-        .right .theme-switcher i {
-            color: #fff;
-            position: relative;
-            z-index: 1;
-        }
+.right .theme-switcher i {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
 
-            .right .theme-switcher i:last-child {
-                color: #000;
-            }
+.right .theme-switcher i:last-child {
+    color: #000;
+}
 
-        .right .theme-switcher::before {
-            content: "";
-            position: absolute;
-            width: 45px;
-            height: 45px;
-            background-color: #000;
-            border-radius: 50%;
-            left: 5px;
-        }
+.right .theme-switcher::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    border-radius: 50%;
+    left: 5px;
+}
 
 .title-bar {
     display: flex;
     justify-content: space-between;
 }
 
-    .title-bar .title h1 {
-        margin: 0;
-        font-size: 40px;
-        font-weight: 400;
-    }
+.title-bar .title h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
 
 
-    .title-bar .title p {
-        margin: 0;
-    }
+.title-bar .title p {
+    margin: 0;
+}
 
-    .title-bar .buttons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
+.title-bar .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
-        .title-bar .buttons button {
-            border-radius: 50px;
-            height: 50px;
-            font-size: 18px;
-            border: none;
-            padding: 15px 20px;
-            background-color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.title-bar .buttons button {
+    border-radius: 50px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-            .title-bar .buttons button:first-child {
-                padding: 20px;
-            }
+.title-bar .buttons button:first-child {
+    padding: 20px;
+}
 
 .cards {
     border-radius: 30px;
@@ -139,9 +139,9 @@ section {
     gap: 20px;
 }
 
-    .cards .cards {
-        background-color: #fff;
-    }
+.cards .cards {
+    background-color: #fff;
+}
 
 .chart-layout {
     display: flex;
@@ -150,26 +150,26 @@ section {
     gap: 20px;
 }
 
-    .chart-layout .left-columnt {
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+.chart-layout .left-columnt {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-        .chart-layout .left-columnt .card {
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            border-radius: 30px;
-        }
+.chart-layout .left-columnt .card {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+}
 
-    .chart-layout .chart {
-        width: 121%;
-        height: 100%;
-        background-color: #fff;
-        border-radius: 30px;
-    }
+.chart-layout .chart {
+    width: 121%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+}
 
 .other {
     gap: 20px;
@@ -178,10 +178,10 @@ section {
     grid-template-rows: repeat(1, 300px);
 }
 
-    .other .card {
-        background-color: #fff;
-        border-radius: 30px;
-    }
+.other .card {
+    background-color: #fff;
+    border-radius: 30px;
+}
 
 #blazor-error-ui {
     background: lightyellow;

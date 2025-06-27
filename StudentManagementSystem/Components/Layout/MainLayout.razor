@@ -3,16 +3,52 @@
 <div class="page">
     <Sidebar isSibebarOpen="isSibebarOpen" />
 
-    <main class="main">
-        <div class="top-nav">
-            <button @onclick="ToggleSidebar">menu</button>
-            <a href="https://github.com/usmonovshohruxmirzo/student-dashboard-blazor" target="_blank">Github</a>
+    <section>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">dashboard</a></li>
+                    <li><a href="">analytics</a></li>
+                    <li><a href="">data</a></li>
+                    <li><a href="">pulse</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <button class="theme-switcher">
+                    <i class="fas fa-sun"></i><i class="fas fa-moon"></i>
+                </button>
+                <button><i class="fas fa-bell"></i> share</button>
+                <button><i class="fas fa-bell"></i></button>
+                <button><i class="fas fa-bell"></i></button>
+            </div>
+        </header>
+        <div class="title-bar">
+            <div class="title">
+                <h1>Dashboard</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="buttons">
+                <button><i class="fas fa-search"></i></button>
+                <button>6 march 2025</button>
+                <button>create report</button>
+            </div>
         </div>
 
-        <section class="main-view">
-            @Body
-        </section>
-    </main>
+        <div class="cards">
+            <div class="chart-layout">
+                <div class="left-columnt">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+                <div class="chart"></div>
+            </div>
+            <div class="other">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <div id="blazor-error-ui">

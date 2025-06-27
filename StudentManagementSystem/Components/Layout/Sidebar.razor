@@ -1,20 +1,21 @@
 ﻿@inject NavigationManager Navigation
 
-<div class="sidebar @(isSibebarOpen ? "active" : "")">
-    <div class="sidebar-header">
-        <span class="sidebar-title">@pageName</span>
+<aside>
+    <div class="logo">
+        <img src="/favicon.png" alt="" width="40" height="40">
     </div>
-
-    <nav class="sidebar-menu">
-        @foreach (NavItem item in MenuItems)
-        {
-            <NavLink class="sidebar-link" href="@item.Href" Match="@item.Match">
-                <i class="@item.IconClass me-2"></i>
-                @item.Text
-            </NavLink>
-        }
+    <nav>
+        <ul>
+            <li class="active"><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fas fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fas fa-cog"></i></a></li>
+            <li><a href="#"><i class="fas fa-bell"></i></a></li>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
+        </ul>
     </nav>
-</div>
+</aside>
 
 @code {
     [Parameter]

@@ -1,6 +1,6 @@
 ﻿@inject NavigationManager Navigation
 
-<div class="sidebar">
+<div class="sidebar @(isSibebarOpen ? "active" : "")">
     <div class="sidebar-header">
         <span class="sidebar-title">@pageName</span>
     </div>
@@ -17,6 +17,11 @@
 </div>
 
 @code {
+    [Parameter]
+    public bool isSibebarOpen { get; set; }
+}
+
+@code {
     public class NavItem
     {
         public string Text { get; set; }
@@ -27,9 +32,9 @@
 
     List<NavItem> MenuItems = new()
     {
-        new NavItem { Text = "Home", Href = "", IconClass = "bi bi-house-door-fill", Match = NavLinkMatch.All },
-        new NavItem { Text = "Counter", Href = "counter", IconClass = "bi bi-plus-square-fill" },
-        new NavItem { Text = "Weather", Href = "weather", IconClass = "bi bi-list-nested" }
+        new NavItem { Text = "Home", Href = "", IconClass = "fas fa-user", Match = NavLinkMatch.All },
+        new NavItem { Text = "Counter", Href = "counter", IconClass = "fas fa-user" },
+        new NavItem { Text = "Weather", Href = "weather", IconClass = "fas fa-user" }
     };
 
     string pageName = "";

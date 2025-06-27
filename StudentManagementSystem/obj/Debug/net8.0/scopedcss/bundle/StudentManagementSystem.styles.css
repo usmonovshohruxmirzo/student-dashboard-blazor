@@ -3,6 +3,7 @@
     display: flex;
     height: 100vh;
     overflow: hidden;
+    background: #EFEEF1;
 }
 
 .top-nav[b-4nwqtnbnv8] {
@@ -10,13 +11,12 @@
     height: 70px;
     background: #1e1f29;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
     position: sticky;
     top: 0;
-    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .main[b-4nwqtnbnv8] {
@@ -56,16 +56,19 @@
 /* _content/StudentManagementSystem/Components/Layout/Sidebar.razor.rz.scp.css */
 .sidebar[b-hiucpstbi9] {
     width: 250px;
-    height: 100vh   ;
+    height: 100vh;
     background-color: #1e1f29;
     color: white;
     padding: 20px;
-    display: flex;
     flex-direction: column;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
     overflow-y: auto;
     position: sticky;
     top: 0;
+    display: none;
+}
+
+.sidebar.active[b-hiucpstbi9] {
+    display: flex;
 }
 
 .sidebar-header[b-hiucpstbi9] {
@@ -83,12 +86,13 @@
 }
 
 .sidebar-link[b-hiucpstbi9] {
+    width: 100%;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     padding: 10px 14px;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
     transition: background 0.2s, color 0.2s;
     font-weight: 500;
 }

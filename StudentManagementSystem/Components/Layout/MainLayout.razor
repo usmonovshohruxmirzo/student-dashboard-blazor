@@ -1,10 +1,11 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <Sidebar />
+    <Sidebar isSibebarOpen="isSibebarOpen" />
 
     <main class="main">
         <div class="top-nav">
+            <button @onclick="ToggleSidebar">menu</button>
             <a href="https://github.com/usmonovshohruxmirzo/student-dashboard-blazor" target="_blank">Github</a>
         </div>
 
@@ -19,3 +20,13 @@
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
+
+@code {
+    private bool isSibebarOpen = true;
+
+    private void ToggleSidebar()
+    {
+        isSibebarOpen = !isSibebarOpen;
+        StateHasChanged();
+    }
+}

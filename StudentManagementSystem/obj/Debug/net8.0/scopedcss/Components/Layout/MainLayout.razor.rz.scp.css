@@ -2,6 +2,7 @@
     display: flex;
     height: 100vh;
     overflow: hidden;
+    background: #EFEEF1;
 }
 
 .top-nav[b-4nwqtnbnv8] {
@@ -9,13 +10,12 @@
     height: 70px;
     background: #1e1f29;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
     position: sticky;
     top: 0;
-    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .main[b-4nwqtnbnv8] {

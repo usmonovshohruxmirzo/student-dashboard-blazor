@@ -24,7 +24,6 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.development.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.dll
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\refint\StudentManagementSystem.dll
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.pdb

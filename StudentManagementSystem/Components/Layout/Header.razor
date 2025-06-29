@@ -1,4 +1,6 @@
-﻿<header>
+﻿@rendermode InteractiveServer
+
+<header>
     <nav>
         <ul>
             <li><a href="">dashboard</a></li>
@@ -7,12 +9,30 @@
             <li><a href="">pulse</a></li>
         </ul>
     </nav>
+    
     <div class="right">
-        <button class="theme-switcher">
-            <i class="fas fa-sun"></i><i class="fas fa-moon"></i>
+        <button class="theme-switcher @(isDarkMode ? "active" : "")" @onclick="ThemeChanger">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
         </button>
-        <button><i class="fas fa-bell"></i> share</button>
+        <button><i class="fas fa-share"></i> share</button>
         <button><i class="fas fa-bell"></i></button>
         <button><i class="fas fa-bell"></i></button>
     </div>
 </header>
+
+@code {
+    private bool isDarkMode = true;
+    private string theme;
+
+    protected override void OnInitialized()
+    {
+        theme = isDarkMode ? "dark" : "light";
+    }
+
+    private void ThemeChanger()
+    {
+        isDarkMode = !isDarkMode;
+        theme = isDarkMode ? "dark" : "light";
+    }
+}

@@ -3,6 +3,7 @@
     height: 100vh;
     background: #f9fafb;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .settings-sidebar[b-pgsy7ic7wo] {

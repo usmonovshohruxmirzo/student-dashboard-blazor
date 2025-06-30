@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     padding: 16px;
 }
 
@@ -15,11 +15,11 @@
     max-width: 400px;
 }
 
-    .not-found-card h1 {
-        margin: 0;
-        font-size: 64px;
-        color: #4f46e5;
-    }
+.not-found-card h1 {
+    margin: 0;
+    font-size: 64px;
+    color: #4f46e5;
+}
 
 .message {
     font-size: 16px;

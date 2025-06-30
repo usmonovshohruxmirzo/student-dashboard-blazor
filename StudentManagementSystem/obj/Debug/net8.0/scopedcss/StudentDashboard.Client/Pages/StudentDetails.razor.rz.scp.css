@@ -1,5 +1,11 @@
+.page-title[b-t0vhce93p6] {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .student-profile-container[b-t0vhce93p6] {
-    max-width: 800px;
+    width: 100%;
     margin: 30px auto;
     padding: 0 16px;
 }

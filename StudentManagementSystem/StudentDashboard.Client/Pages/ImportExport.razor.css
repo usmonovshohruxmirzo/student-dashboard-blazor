@@ -1,4 +1,10 @@
-﻿.import-section,
+﻿.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.import-section,
 .export-section,
 .logs-section {
     background: #ffffff;

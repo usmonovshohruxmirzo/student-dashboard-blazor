@@ -11,7 +11,8 @@
 body {
     margin: 0;
     height: 100vh;
-    padding: 10px
+    padding: 10px;
+    background: var(--primary);
 }
 
 .blazor-error-boundary {
@@ -35,9 +36,14 @@ body {
     align-items: center;
     color: #000;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .nav-link.active {
     color: #fff;
     background-color: var(--primary);
+}
+
+.nav-link:hover {
+    transform: scale(0.8);
 }

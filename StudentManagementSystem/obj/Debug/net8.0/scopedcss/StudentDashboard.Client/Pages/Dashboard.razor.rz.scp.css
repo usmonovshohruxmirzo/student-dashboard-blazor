@@ -8,14 +8,10 @@ section[b-qw6ct5zyim] {
 }
 
     .title-bar .title h1[b-qw6ct5zyim] {
-        margin: 0;
-        font-size: 40px;
-        font-weight: 400;
-    }
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
 
-
-    .title-bar .title p[b-qw6ct5zyim] {
-        margin: 0;
     }
 
     .title-bar .buttons[b-qw6ct5zyim] {

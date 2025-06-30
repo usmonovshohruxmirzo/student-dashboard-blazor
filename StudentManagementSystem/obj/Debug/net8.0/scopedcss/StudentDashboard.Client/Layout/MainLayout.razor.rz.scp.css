@@ -15,6 +15,32 @@ section[b-yefqcxh9gt] {
     scrollbar-width: none;
 }
 
+.main-view[b-yefqcxh9gt] {
+    padding: 0;
+    padding-right: 20px;
+   
+}
+
+.main-view[b-yefqcxh9gt]::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to top, transparent, #EFEEF1);
+    top: 100px;
+    z-index: 100;
+}
+
+.main-view[b-yefqcxh9gt]::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, #EFEEF1);
+    z-index: 100;
+    bottom: 10px;
+}
+
 
 #blazor-error-ui[b-yefqcxh9gt] {
     background: lightyellow;

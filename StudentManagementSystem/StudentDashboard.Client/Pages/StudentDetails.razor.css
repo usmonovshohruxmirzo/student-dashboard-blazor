@@ -1,5 +1,11 @@
-﻿.student-profile-container {
-    max-width: 800px;
+﻿.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.student-profile-container {
+    width: 100%;
     margin: 30px auto;
     padding: 0 16px;
 }

@@ -1,4 +1,10 @@
-﻿.scores-header-actions {
+﻿.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scores-header-actions {
     text-align: right;
     margin: 16px 0 24px;
 }

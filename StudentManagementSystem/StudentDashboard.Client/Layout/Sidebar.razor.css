@@ -25,8 +25,26 @@ aside nav ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 500px;
+    height: 540px;
+    overflow-x: auto;
     overflow-y: scroll;
     scrollbar-width: none;
-    border-radius: 50px;
+}
+
+aside nav ul::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to top, transparent, #EFEEF1);
+    top: 103px;
+}
+
+aside nav ul::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, #EFEEF1);
+    bottom: 103px;
 }

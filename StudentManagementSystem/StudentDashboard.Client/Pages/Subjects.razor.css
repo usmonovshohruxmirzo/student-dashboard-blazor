@@ -1,4 +1,10 @@
-﻿.subjects-header-actions {
+﻿.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subjects-header-actions {
     text-align: right;
     margin: 16px 0 24px 0;
 }
@@ -13,13 +19,13 @@
     cursor: pointer;
 }
 
-    .add-btn:hover {
-        background: #4338ca;
-    }
+.add-btn:hover {
+    background: #4338ca;
+}
 
 .subjects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
 }
 

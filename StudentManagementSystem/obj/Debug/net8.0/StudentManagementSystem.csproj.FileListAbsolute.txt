@@ -43,3 +43,5 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\GradesSummary.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\ImportExport.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Settings.razor.rz.scp.css
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Login.razor.rz.scp.css
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\SignUp.razor.rz.scp.css

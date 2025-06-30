@@ -626,6 +626,94 @@ section[b-qw6ct5zyim] {
         margin-bottom: 8px;
         font-size: 14px;
     }
+/* _content/StudentManagementSystem/StudentDashboard.Client/Pages/Login.razor.rz.scp.css */
+.auth-container[b-23y3fokvc3] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9fafb;
+}
+
+.auth-card[b-23y3fokvc3] {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+    .auth-card h1[b-23y3fokvc3] {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 24px;
+        color: #111827;
+    }
+
+.auth-subtitle[b-23y3fokvc3] {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.form-group[b-23y3fokvc3] {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+    .form-group label[b-23y3fokvc3] {
+        font-size: 14px;
+        color: #374151;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    .form-group input[b-23y3fokvc3] {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border 0.2s;
+    }
+
+        .form-group input:focus[b-23y3fokvc3] {
+            outline: none;
+            border-color: #4f46e5;
+        }
+
+.auth-btn[b-23y3fokvc3] {
+    width: 100%;
+    background: #4f46e5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+    .auth-btn:hover[b-23y3fokvc3] {
+        background: #4338ca;
+    }
+
+.auth-link[b-23y3fokvc3] {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 16px;
+}
+
+    .auth-link a[b-23y3fokvc3] {
+        color: #4f46e5;
+        text-decoration: none;
+    }
+
+        .auth-link a:hover[b-23y3fokvc3] {
+            text-decoration: underline;
+        }
 /* _content/StudentManagementSystem/StudentDashboard.Client/Pages/Reports.razor.rz.scp.css */
 .report-summary-cards[b-sudr6thznu] {
     display: grid;
@@ -943,6 +1031,94 @@ section[b-qw6ct5zyim] {
     .save-btn:hover[b-pgsy7ic7wo] {
         background: #4338ca;
     }
+/* _content/StudentManagementSystem/StudentDashboard.Client/Pages/SignUp.razor.rz.scp.css */
+.auth-container[b-ufthi6lywv] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9fafb;
+}
+
+.auth-card[b-ufthi6lywv] {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+    .auth-card h1[b-ufthi6lywv] {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 24px;
+        color: #111827;
+    }
+
+.auth-subtitle[b-ufthi6lywv] {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.form-group[b-ufthi6lywv] {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+    .form-group label[b-ufthi6lywv] {
+        font-size: 14px;
+        color: #374151;
+        margin-bottom: 4px;
+        display: block;
+    }
+
+    .form-group input[b-ufthi6lywv] {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #d1d5db;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border 0.2s;
+    }
+
+        .form-group input:focus[b-ufthi6lywv] {
+            outline: none;
+            border-color: #4f46e5;
+        }
+
+.auth-btn[b-ufthi6lywv] {
+    width: 100%;
+    background: #4f46e5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+    .auth-btn:hover[b-ufthi6lywv] {
+        background: #4338ca;
+    }
+
+.auth-link[b-ufthi6lywv] {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 16px;
+}
+
+    .auth-link a[b-ufthi6lywv] {
+        color: #4f46e5;
+        text-decoration: none;
+    }
+
+        .auth-link a:hover[b-ufthi6lywv] {
+            text-decoration: underline;
+        }
 /* _content/StudentManagementSystem/StudentDashboard.Client/Pages/StudentDetails.razor.rz.scp.css */
 .student-profile-container[b-t0vhce93p6] {
     max-width: 800px;

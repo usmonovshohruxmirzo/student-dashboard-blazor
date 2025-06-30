@@ -40,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U3R1ZGVudERhc2hib2FyZC5DbGllbnRcUGFnZXNcTm90Rm91bmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usmonov Shohruxmiroz's Projects/C\#/Projects/Blazor/StudentManagementSystem/StudentManagementSystem/StudentDashboard.Client/Pages/Unauthorized.razor]
-build_metadata.AdditionalFiles.TargetPath = U3R1ZGVudERhc2hib2FyZC5DbGllbnRcUGFnZXNcVW5hdXRob3JpemVkLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Usmonov Shohruxmiroz's Projects/C\#/Projects/Blazor/StudentManagementSystem/StudentManagementSystem/StudentDashboard.Client/Layout/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U3R1ZGVudERhc2hib2FyZC5DbGllbnRcTGF5b3V0XEhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-9dwqgc5vuy
@@ -111,3 +107,7 @@ build_metadata.AdditionalFiles.CssScope = b-47d64p7sdf
 [D:/Usmonov Shohruxmiroz's Projects/C\#/Projects/Blazor/StudentManagementSystem/StudentManagementSystem/StudentDashboard.Client/Pages/Subjects.razor]
 build_metadata.AdditionalFiles.TargetPath = U3R1ZGVudERhc2hib2FyZC5DbGllbnRcUGFnZXNcU3ViamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-odfi3m8yva
+
+[D:/Usmonov Shohruxmiroz's Projects/C\#/Projects/Blazor/StudentManagementSystem/StudentManagementSystem/StudentDashboard.Client/Pages/Unauthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = U3R1ZGVudERhc2hib2FyZC5DbGllbnRcUGFnZXNcVW5hdXRob3JpemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-8t35l3zium

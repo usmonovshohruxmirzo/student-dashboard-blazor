@@ -34,3 +34,4 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Layout\Sidebar.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Dashboard.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Students.razor.rz.scp.css
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\AddStudent.razor.rz.scp.css

@@ -1,5 +1,60 @@
-﻿<h3>Scores</h3>
+﻿@page "/scores"
 
-@code {
+<h1 class="page-title">Scores</h1>
 
-}
+<div class="scores-header-actions">
+    <button class="add-btn">+ Add New Score</button>
+</div>
+
+<div class="scores-table-container">
+    <table class="scores-table">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Subject</th>
+                <th>Score</th>
+                <th>Grade</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alex Johnson</td>
+                <td>Mathematics</td>
+                <td>92</td>
+                <td>A</td>
+                <td><span class="status-pass">Passed</span></td>
+                <td>
+                    <button class="view-btn">View</button>
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Emily Smith</td>
+                <td>English</td>
+                <td>76</td>
+                <td>B</td>
+                <td><span class="status-pass">Passed</span></td>
+                <td>
+                    <button class="view-btn">View</button>
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>Science</td>
+                <td>58</td>
+                <td>D</td>
+                <td><span class="status-fail">Failed</span></td>
+                <td>
+                    <button class="view-btn">View</button>
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

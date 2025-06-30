@@ -47,3 +47,4 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\SignUp.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Profile.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Unauthorized.razor.rz.scp.css
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\NotFound.razor.rz.scp.css

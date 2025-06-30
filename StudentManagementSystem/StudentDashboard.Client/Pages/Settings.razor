@@ -1,5 +1,58 @@
-﻿<h3>Settings</h3>
+﻿@page "/settings"
 
-@code {
+<h1 class="page-title">Settings</h1>
 
-}
+<div class="settings-container">
+    <div class="settings-section">
+        <h2>Profile</h2>
+        <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe" />
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="john@example.com" />
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>Notifications</h2>
+        <div class="form-group checkbox-group">
+            <label><input type="checkbox" checked /> Email Notifications</label>
+        </div>
+        <div class="form-group checkbox-group">
+            <label><input type="checkbox" /> SMS Notifications</label>
+        </div>
+        <div class="form-group checkbox-group">
+            <label><input type="checkbox" checked /> Push Notifications</label>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>Appearance</h2>
+        <div class="form-group">
+            <label>Theme</label>
+            <select>
+                <option>Light</option>
+                <option>Dark</option>
+                <option>System Default</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h2>Security</h2>
+        <div class="form-group">
+            <label>New Password</label>
+            <input type="password" placeholder="Enter new password" />
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm new password" />
+        </div>
+    </div>
+
+    <div class="save-btn-container">
+        <button class="save-btn">Save Changes</button>
+    </div>
+</div>

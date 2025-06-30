@@ -1,4 +1,4 @@
-aside[b-hiucpstbi9] {
+aside[b-plhr2mt0zf] {
     width: 100px;
     height: 100vh;
     padding: 10px;
@@ -8,7 +8,7 @@ aside[b-hiucpstbi9] {
     position: relative;
 }
 
-aside .logo[b-hiucpstbi9] {
+aside .logo[b-plhr2mt0zf] {
     position: absolute;
     top: 0;
     display: flex;
@@ -18,11 +18,15 @@ aside .logo[b-hiucpstbi9] {
     height: 100px;
 }
 
-aside nav ul[b-hiucpstbi9] {
+aside nav ul[b-plhr2mt0zf] {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    border-radius: 50px;
 }

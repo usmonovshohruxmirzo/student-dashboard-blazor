@@ -1,4 +1,6 @@
 ﻿@inject NavigationManager Navigation
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Routing
 
 <aside>
     <div class="logo">
@@ -31,17 +33,26 @@
         public required string Href { get; set; }
         public NavLinkMatch Match { get; set; } = NavLinkMatch.Prefix;
     }
-
     readonly List<NavItem> MenuItems = new()
     {
         new NavItem { Href = "", IconClass = "fas fa-home", Match = NavLinkMatch.All },
-        new NavItem { Href = "counter", IconClass = "fas fa-user" },
-        new NavItem { Href = "messages", IconClass = "fas fa-envelope" },
+        new NavItem { Href = "students", IconClass = "fas fa-users" },
+        new NavItem { Href = "add-student", IconClass = "fas fa-user-plus" },
+        new NavItem { Href = "edit-student", IconClass = "fas fa-user-edit" },
+        new NavItem { Href = "student-details", IconClass = "fas fa-id-card" },
+        new NavItem { Href = "subjects", IconClass = "fas fa-book" },
+        new NavItem { Href = "scores", IconClass = "fas fa-clipboard-list" },
+        new NavItem { Href = "reports", IconClass = "fas fa-chart-line" },
+        new NavItem { Href = "grades-summary", IconClass = "fas fa-graduation-cap" },
+        new NavItem { Href = "import-export", IconClass = "fas fa-file-import" },
         new NavItem { Href = "settings", IconClass = "fas fa-cog" },
-        new NavItem { Href = "notifications", IconClass = "fas fa-bell" },
-        new NavItem { Href = "search", IconClass = "fas fa-search" },
+        new NavItem { Href = "login", IconClass = "fas fa-sign-in-alt" },
+        new NavItem { Href = "profile", IconClass = "fas fa-user" },
+        new NavItem { Href = "unauthorized", IconClass = "fas fa-ban" },
+        new NavItem { Href = "not-found", IconClass = "fas fa-exclamation-triangle" },
         new NavItem { Href = "logout", IconClass = "fas fa-sign-out-alt" }
     };
+
 
     string pageName = "";
 

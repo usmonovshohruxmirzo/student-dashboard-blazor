@@ -1,31 +1,31 @@
-section[b-ntxkgl2l19] {
+section[b-qw6ct5zyim] {
     padding-right: 20px;
 }
 
-.title-bar[b-ntxkgl2l19] {
+.title-bar[b-qw6ct5zyim] {
     display: flex;
     justify-content: space-between;
 }
 
-    .title-bar .title h1[b-ntxkgl2l19] {
+    .title-bar .title h1[b-qw6ct5zyim] {
         margin: 0;
         font-size: 40px;
         font-weight: 400;
     }
 
 
-    .title-bar .title p[b-ntxkgl2l19] {
+    .title-bar .title p[b-qw6ct5zyim] {
         margin: 0;
     }
 
-    .title-bar .buttons[b-ntxkgl2l19] {
+    .title-bar .buttons[b-qw6ct5zyim] {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
 
-        .title-bar .buttons button[b-ntxkgl2l19] {
+        .title-bar .buttons button[b-qw6ct5zyim] {
             border-radius: 50px;
             height: 50px;
             font-size: 18px;
@@ -37,11 +37,11 @@ section[b-ntxkgl2l19] {
             align-items: center;
         }
 
-            .title-bar .buttons button:first-child[b-ntxkgl2l19] {
+            .title-bar .buttons button:first-child[b-qw6ct5zyim] {
                 padding: 20px;
             }
 
-.cards[b-ntxkgl2l19] {
+.cards[b-qw6ct5zyim] {
     border-radius: 30px;
     background-color: #EFECF5;
     margin-top: 20px;
@@ -51,46 +51,46 @@ section[b-ntxkgl2l19] {
     gap: 20px;
 }
 
-    .cards .cards[b-ntxkgl2l19] {
+    .cards .cards[b-qw6ct5zyim] {
         background-color: #fff;
     }
 
-.chart-layout[b-ntxkgl2l19] {
+.chart-layout[b-qw6ct5zyim] {
     display: flex;
     width: 100%;
     height: 600px;
     gap: 20px;
 }
 
-    .chart-layout .left-columnt[b-ntxkgl2l19] {
+    .chart-layout .left-columnt[b-qw6ct5zyim] {
         width: 60%;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-        .chart-layout .left-columnt .card[b-ntxkgl2l19] {
+        .chart-layout .left-columnt .card[b-qw6ct5zyim] {
             width: 100%;
             height: 100%;
             background-color: #fff;
             border-radius: 30px;
         }
 
-    .chart-layout .chart[b-ntxkgl2l19] {
+    .chart-layout .chart[b-qw6ct5zyim] {
         width: 121%;
         height: 100%;
         background-color: #fff;
         border-radius: 30px;
     }
 
-.other[b-ntxkgl2l19] {
+.other[b-qw6ct5zyim] {
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 300px);
 }
 
-    .other .card[b-ntxkgl2l19] {
+    .other .card[b-qw6ct5zyim] {
         background-color: #fff;
         border-radius: 30px;
     }

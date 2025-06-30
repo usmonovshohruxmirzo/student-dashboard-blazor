@@ -1,6 +1,4 @@
-﻿@rendermode InteractiveServer
-
-<header>
+﻿<header>
     <nav>
         <ul>
             <li><a href="">dashboard</a></li>
@@ -9,7 +7,7 @@
             <li><a href="">pulse</a></li>
         </ul>
     </nav>
-    
+
     <div class="right">
         <button class="theme-switcher @(isDarkMode ? "active" : "")" @onclick="ThemeChanger">
             <i class="fas fa-sun"></i>
@@ -23,7 +21,7 @@
 
 @code {
     private bool isDarkMode = true;
-    private string theme;
+    private string theme = string.Empty;
 
     protected override void OnInitialized()
     {

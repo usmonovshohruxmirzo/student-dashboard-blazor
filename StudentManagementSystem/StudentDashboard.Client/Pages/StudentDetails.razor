@@ -1,5 +1,54 @@
-﻿<h3>StudentDetails</h3>
+﻿@page "/student-details"
 
-@code {
+<div class="student-profile-container">
+    <!-- Header Card -->
+    <div class="student-header-card">
+        <img src="https://via.placeholder.com/120" alt="Profile Photo" />
+        <h2>Alex Johnson</h2>
+        <p>ID: #001</p>
+        <div class="student-stats">
+            <div class="stat-item">
+                <span class="stat-label">GPA</span>
+                <span class="stat-value">3.85</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Grade</span>
+                <span class="stat-value">B</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Status</span>
+                <span class="stat-value active">Active</span>
+            </div>
+        </div>
+    </div>
 
-}
+    <!-- Details Section -->
+    <div class="student-info-cards">
+        <div class="info-card">
+            <h4>Full Name</h4>
+            <p>Alex Johnson</p>
+        </div>
+        <div class="info-card">
+            <h4>Gender</h4>
+            <p>Male</p>
+        </div>
+        <div class="info-card">
+            <h4>Date of Birth</h4>
+            <p>June 12, 2004</p>
+        </div>
+        <div class="info-card">
+            <h4>Subjects</h4>
+            <p>Math, English, Science</p>
+        </div>
+        <div class="info-card wide">
+            <h4>Notes</h4>
+            <p>Highly active in class. Needs to improve in math.</p>
+        </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="details-actions">
+        <button class="edit-btn">Edit</button>
+        <button class="delete-btn">Delete</button>
+    </div>
+</div>

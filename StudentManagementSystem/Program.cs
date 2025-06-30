@@ -1,4 +1,4 @@
-using StudentManagementSystem.Components;
+using StudentManagementSystem.StudentDashboard_Client.App;
 
 var builder = WebApplication.CreateBuilder(args);
 

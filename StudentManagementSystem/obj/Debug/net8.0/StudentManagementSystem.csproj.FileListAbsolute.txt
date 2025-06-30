@@ -40,3 +40,4 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\St
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Subjects.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Scores.razor.rz.scp.css
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\Reports.razor.rz.scp.css
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\scopedcss\StudentDashboard.Client\Pages\GradesSummary.razor.rz.scp.css

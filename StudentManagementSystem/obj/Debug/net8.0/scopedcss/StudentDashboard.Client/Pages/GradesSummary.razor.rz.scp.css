@@ -1,0 +1,85 @@
+.grades-summary-cards[b-1xhtqbb1fl] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.summary-card[b-1xhtqbb1fl] {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+    .summary-card h3[b-1xhtqbb1fl] {
+        margin: 0 0 8px;
+        font-size: 16px;
+        color: #6b7280;
+    }
+
+.summary-value[b-1xhtqbb1fl] {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.grade-distribution-placeholder[b-1xhtqbb1fl] {
+    background: #f9fafb;
+    padding: 40px;
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #6b7280;
+}
+
+.grades-table-container[b-1xhtqbb1fl] {
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.grades-table[b-1xhtqbb1fl] {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .grades-table thead[b-1xhtqbb1fl] {
+        background: #f9fafb;
+    }
+
+    .grades-table th[b-1xhtqbb1fl],
+    .grades-table td[b-1xhtqbb1fl] {
+        padding: 14px 16px;
+        text-align: left;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .grades-table th[b-1xhtqbb1fl] {
+        font-size: 14px;
+        color: #6b7280;
+    }
+
+    .grades-table td[b-1xhtqbb1fl] {
+        font-size: 14px;
+        color: #374151;
+    }
+
+    .grades-table tr:hover[b-1xhtqbb1fl] {
+        background: #f3f4f6;
+    }
+
+.status-pass[b-1xhtqbb1fl] {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.status-fail[b-1xhtqbb1fl] {
+    color: #ef4444;
+    font-weight: 600;
+}

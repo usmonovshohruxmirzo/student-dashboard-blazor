@@ -1,5 +1,60 @@
-﻿<h3>GradesSummary</h3>
+﻿@page "/grades-summary"
 
-@code {
+<h1 class="page-title">Grades Summary</h1>
 
-}
+<div class="grades-summary-cards">
+    <div class="summary-card">
+        <h3>Average Grade</h3>
+        <p class="summary-value">B+</p>
+    </div>
+    <div class="summary-card">
+        <h3>Top Grade</h3>
+        <p class="summary-value">A+</p>
+    </div>
+    <div class="summary-card">
+        <h3>Failing Rate</h3>
+        <p class="summary-value">8%</p>
+    </div>
+    <div class="summary-card">
+        <h3>Passing Rate</h3>
+        <p class="summary-value">92%</p>
+    </div>
+</div>
+
+<div class="grade-distribution-placeholder">
+    <p>📊 [Grade Distribution Chart Placeholder]</p>
+</div>
+
+<h2>Students Grades</h2>
+<div class="grades-table-container">
+    <table class="grades-table">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Average Score</th>
+                <th>Grade</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alex Johnson</td>
+                <td>91</td>
+                <td>A</td>
+                <td><span class="status-pass">Passed</span></td>
+            </tr>
+            <tr>
+                <td>Emily Smith</td>
+                <td>78</td>
+                <td>B</td>
+                <td><span class="status-pass">Passed</span></td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>54</td>
+                <td>D</td>
+                <td><span class="status-fail">Failed</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

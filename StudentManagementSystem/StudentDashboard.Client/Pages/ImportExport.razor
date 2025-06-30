@@ -1,5 +1,34 @@
-﻿<h3>ImportExport</h3>
+﻿@page "/import-export"
 
-@code {
+<h1 class="page-title">Import & Export</h1>
 
-}
+<div class="import-section">
+    <h2>Import Students Data</h2>
+    <div class="import-upload-box">
+        <p>Drag & drop your file here, or <span class="file-upload-link">browse</span></p>
+        <p class="upload-hint">Accepted formats: .csv, .xlsx</p>
+        <button class="import-btn">Upload & Import</button>
+    </div>
+</div>
+
+<div class="export-section">
+    <h2>Export Students Data</h2>
+    <div class="export-options">
+        <label>Select format:</label>
+        <select>
+            <option value="csv">CSV (.csv)</option>
+            <option value="excel">Excel (.xlsx)</option>
+            <option value="pdf">PDF (.pdf)</option>
+        </select>
+        <button class="export-btn">Download</button>
+    </div>
+</div>
+
+<div class="logs-section">
+    <h2>Recent Import/Export Logs</h2>
+    <ul class="logs-list">
+        <li>✔️ Exported students data (CSV) — 2 minutes ago</li>
+        <li>✔️ Imported new students list — 1 hour ago</li>
+        <li>✔️ Exported grades report (PDF) — Yesterday</li>
+    </ul>
+</div>

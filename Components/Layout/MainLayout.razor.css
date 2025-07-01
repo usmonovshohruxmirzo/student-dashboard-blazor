@@ -14,9 +14,7 @@ section {
 }
 
 .main-view {
-    padding: 0;
-    padding-right: 20px;
-   
+    padding: 0 20px 0 0;
 }
 
 .main-view::before {

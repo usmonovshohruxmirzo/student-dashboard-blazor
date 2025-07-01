@@ -1,4 +1,3 @@
 # student-dashboard-blazor
 
-![2025-07-01 22 34 17 localhost aa10bca0bbb0](https://github.com/user-attachments/assets/ecca7738-bb95-42e0-ab15-e341c9a7e765)
-
+![2025-07-01 22 53 47 localhost 191d46e1c21c](https://github.com/user-attachments/assets/87d83975-94f3-4eab-b0f1-31dbbd82c6cf)

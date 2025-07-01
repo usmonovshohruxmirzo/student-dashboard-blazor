@@ -1,0 +1,62 @@
+.page {
+    display: flex;
+    height: calc(100vh - 20px);
+    overflow: hidden;
+    background: #EFEEF1;
+    border-radius: 30px;
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+    padding-right: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.main-view {
+    padding: 0;
+    padding-right: 20px;
+   
+}
+
+.main-view::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to top, transparent, #EFEEF1);
+    top: 100px;
+    z-index: 100;
+}
+
+.main-view::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, #EFEEF1);
+    z-index: 100;
+    bottom: 10px;
+}
+
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}

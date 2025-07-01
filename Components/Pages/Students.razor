@@ -1,0 +1,50 @@
+﻿@page "/students"
+
+<h1 class="page-title">Students</h1>
+
+<div class="search-bar">
+    <input type="text" placeholder="Search students..." />
+    <button>Search</button>
+</div>
+
+<table class="students-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>GPA</th>
+            <th>Grade</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>001</td>
+            <td>Alex Johnson</td>
+            <td>Male</td>
+            <td>3.85</td>
+            <td><span class="badge badge-success">A</span></td>
+            <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Emily Clark</td>
+            <td>Female</td>
+            <td>3.40</td>
+            <td><span class="badge badge-warning">B</span></td>
+            <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+@code {
+
+}

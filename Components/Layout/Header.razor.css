@@ -1,0 +1,85 @@
+﻿section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 0.5px;
+    background-color: #EFEEF1;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    z-index: 1200;
+}
+
+section header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+section header nav ul li {
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: var(--primary);
+}
+
+section header nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.right {
+    display: flex;
+    gap: 10px;
+}
+
+
+.right button {
+    padding: 20px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.right .theme-switcher {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: #E5E7E9;
+}
+
+.right .theme-switcher i {
+    z-index: 1;
+}
+
+
+.right .theme-switcher::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: left 0.3s ease;
+}
+
+.right .theme-switcher.active::before {
+    left: 50px; 
+}

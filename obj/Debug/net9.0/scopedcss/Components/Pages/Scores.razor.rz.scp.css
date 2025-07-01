@@ -1,0 +1,98 @@
+.page-title[b-z6xwhh350r] {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scores-header-actions[b-z6xwhh350r] {
+    text-align: right;
+    margin: 16px 0 24px;
+}
+
+.add-btn[b-z6xwhh350r] {
+    background: #4f46e5;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .add-btn:hover[b-z6xwhh350r] {
+        background: #4338ca;
+    }
+
+.scores-table-container[b-z6xwhh350r] {
+    overflow-x: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.scores-table[b-z6xwhh350r] {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .scores-table thead[b-z6xwhh350r] {
+        background: #f9fafb;
+    }
+
+    .scores-table th[b-z6xwhh350r],
+    .scores-table td[b-z6xwhh350r] {
+        padding: 14px 16px;
+        text-align: left;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .scores-table th[b-z6xwhh350r] {
+        font-size: 14px;
+        color: #6b7280;
+    }
+
+    .scores-table td[b-z6xwhh350r] {
+        font-size: 14px;
+        color: #374151;
+    }
+
+    .scores-table tr:hover[b-z6xwhh350r] {
+        background: #f3f4f6;
+    }
+
+.status-pass[b-z6xwhh350r] {
+    color: #10b981;
+    font-weight: 600;
+}
+
+.status-fail[b-z6xwhh350r] {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+.view-btn[b-z6xwhh350r],
+.edit-btn[b-z6xwhh350r],
+.delete-btn[b-z6xwhh350r] {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: background 0.2s;
+}
+
+    .view-btn:hover[b-z6xwhh350r] {
+        background: #e5e7eb;
+    }
+
+    .edit-btn:hover[b-z6xwhh350r] {
+        background: #e0e7ff;
+    }
+
+    .delete-btn:hover[b-z6xwhh350r] {
+        background: #fee2e2;
+    }

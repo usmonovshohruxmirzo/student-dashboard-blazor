@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<main class="page">
+    <NET9.BlazorWebAppServerGlobal.Components.Layout.Sidebar />
+
+    <section>
+        <NET9.BlazorWebAppServerGlobal.Components.Layout.Header />
+        <section class="main-view">
+            @Body
+        </section>
+    </section>
+</main>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>

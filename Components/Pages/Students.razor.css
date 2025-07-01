@@ -69,7 +69,10 @@
 
 .badge-warning {
     background: #facc15;
-    color: #333;
+}
+
+.badge-fail {
+    background: #f00;
 }
 
 .edit-btn,

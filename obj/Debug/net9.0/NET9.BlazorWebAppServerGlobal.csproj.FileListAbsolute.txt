@@ -1,13 +1,13 @@
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.exe
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.dll
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\BlazorBootstrap.dll
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\appsettings.Development.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\appsettings.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.staticwebassets.runtime.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.staticwebassets.endpoints.json
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.exe
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.deps.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.runtimeconfig.json
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.dll
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\NET9.BlazorWebAppServerGlobal.pdb
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\bin\Debug\net9.0\BlazorBootstrap.dll
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.csproj.AssemblyReference.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\rpswa.dswa.cache.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.GeneratedMSBuildEditorConfig.editorconfig
@@ -60,5 +60,5 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\o
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.pdb
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.genruntimeconfig.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\ref\NET9.BlazorWebAppServerGlobal.dll
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\i9ia5v1ufc-6i3i713ent.gz
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\btnzcbbpxo-a7oo5k7nza.gz
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\i9ia5v1ufc-dvx675qpwd.gz
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\btnzcbbpxo-hhuk8tmqnu.gz

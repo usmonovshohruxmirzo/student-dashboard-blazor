@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NET9.BlazorWebAppServerGlobal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47bf5cf75e363c2da113f242eb4e20e4e282e657")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+417ae3eb9142386f97d019ffa5883f99d7f1dbab")]
 [assembly: System.Reflection.AssemblyProductAttribute("NET9.BlazorWebAppServerGlobal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NET9.BlazorWebAppServerGlobal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

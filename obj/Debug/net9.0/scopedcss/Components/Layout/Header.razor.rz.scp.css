@@ -23,13 +23,19 @@ section header nav ul[b-m2909okki9] {
 section header nav ul li[b-m2909okki9] {
     padding: 15px 20px;
     border-radius: 50px;
+    background-color: #fff;
+    color: var(--primary);;
+}
+
+section header nav ul li.active[b-m2909okki9] {
     background-color: var(--primary);
+    color: #fff;
 }
 
 section header nav ul li a[b-m2909okki9] {
     text-decoration: none;
     text-transform: capitalize;
-    color: #fff;
+    color: inherit;
 }
 
 .right[b-m2909okki9] {

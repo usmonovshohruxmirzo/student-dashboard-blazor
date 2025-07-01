@@ -50,8 +50,6 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\o
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\mfzx4sb2rv-79hai7knhw.gz
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\vac61jv4mp-9eajycm0en.gz
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\eojifsclv0-7t9tbfaemk.gz
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\i9ia5v1ufc-v1icptu7d4.gz
-D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\btnzcbbpxo-qk8eon7le7.gz
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\staticwebassets.build.json
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\staticwebassets.development.json
@@ -62,3 +60,5 @@ D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\o
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.pdb
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\NET9.BlazorWebAppServerGlobal.genruntimeconfig.cache
 D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\ref\NET9.BlazorWebAppServerGlobal.dll
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\i9ia5v1ufc-6i3i713ent.gz
+D:\Usmonov Shohruxmiroz's Projects\C#\Projects\Blazor\student-dashboard-blazor\obj\Debug\net9.0\compressed\btnzcbbpxo-a7oo5k7nza.gz

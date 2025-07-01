@@ -58,14 +58,14 @@ section[b-605f37z553] {
     gap: 20px;
 }
 
-    .chart-layout .left-columnt[b-605f37z553] {
+    .chart-layout .left-column[b-605f37z553] {
         width: 60%;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
 
-        .chart-layout .left-columnt .card[b-605f37z553] {
+        .chart-layout .left-column .card[b-605f37z553] {
             width: 100%;
             height: 100%;
             background-color: #fff;

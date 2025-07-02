@@ -49,7 +49,7 @@ section header nav ul li a {
     padding: 20px;
     height: 50px;
     border-radius: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.175);
+    border: none;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@ section header nav ul li a {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 5px 20px;
+    padding: 5px 17px;
     cursor: pointer;
     background-color: #E5E7E9;
     border-radius: 25px;
@@ -92,12 +92,12 @@ section header nav ul li a {
     height: 45px;
     background-color: #fff;
     border-radius: 50%;
-    left: 5px;
+    left: 4px;
     top: 50%;
     transform: translateY(-50%);
     transition: left 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .right .theme-switcher.active::before {
-    left: 50px;
+    left: 52px;
 }

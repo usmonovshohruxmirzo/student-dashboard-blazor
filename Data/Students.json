@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": 1,
+    "FullName": "Alex Johnson",
+    "Gender": "Male",
+    "DateOfBirth": "2004-06-12",
+    "Gpa": 3.85,
+    "Subjects": ["Math", "English", "Science"],
+    "Status": "Active"
+  },
+  {
+    "Id": 2,
+    "FullName": "Emily Brown",
+    "Gender": "Female",
+    "DateOfBirth": "2005-02-20",
+    "Gpa": 3.95,
+    "Subjects": ["History", "Math"],
+    "Status": "Active"
+  }
+]

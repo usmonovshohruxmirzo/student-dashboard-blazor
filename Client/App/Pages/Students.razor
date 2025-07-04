@@ -1,4 +1,5 @@
 ﻿@page "/students"
+@using NET9.BlazorWebAppServerGlobal.Server.Models
 
 <PageTitle>Students</PageTitle>
 
@@ -40,16 +41,6 @@
 
 
 @code {
-
-    public class Student
-    {
-        public required string Id { get; set; }
-        public required string Name { get; set; }
-        public required string Gender { get; set; }
-        public required double Gpa { get; set; }
-        public required char Grade { get; set; }
-    }
-    
     readonly List<Student> _students = new()
     {
         new Student { Id = "001", Name = "Alex", Gender = "male", Gpa = 3.15, Grade = 'A' },

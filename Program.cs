@@ -1,4 +1,4 @@
-using NET9.BlazorWebAppServerGlobal.App;
+using NET9.BlazorWebAppServerGlobal.Client.App;
 
 var builder = WebApplication.CreateBuilder(args);
 

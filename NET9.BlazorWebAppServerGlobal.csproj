@@ -10,4 +10,35 @@
     <PackageReference Include="Blazor.Bootstrap" Version="3.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Client\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Client\App\App.razor" />
+    <AdditionalFiles Include="Client\App\Components\Header.razor" />
+    <AdditionalFiles Include="Client\App\Components\Sidebar.razor" />
+    <AdditionalFiles Include="Client\App\Layout\AuthLayout.razor" />
+    <AdditionalFiles Include="Client\App\Layout\MainLayout.razor" />
+    <AdditionalFiles Include="Client\App\Pages\AddStudent.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Dashboard.razor" />
+    <AdditionalFiles Include="Client\App\Pages\EditStudent.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Error.razor" />
+    <AdditionalFiles Include="Client\App\Pages\GradesSummary.razor" />
+    <AdditionalFiles Include="Client\App\Pages\ImportExport.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Login.razor" />
+    <AdditionalFiles Include="Client\App\Pages\NotFound.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Profile.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Reports.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Scores.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Settings.razor" />
+    <AdditionalFiles Include="Client\App\Pages\SignUp.razor" />
+    <AdditionalFiles Include="Client\App\Pages\StudentDetails.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Students.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Subjects.razor" />
+    <AdditionalFiles Include="Client\App\Pages\Unauthorized.razor" />
+    <AdditionalFiles Include="Client\App\Routes.razor" />
+    <AdditionalFiles Include="Client\App\_Imports.razor" />
+  </ItemGroup>
+
 </Project>

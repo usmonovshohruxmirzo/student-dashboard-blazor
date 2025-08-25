@@ -1,6 +1,9 @@
-using NET9.BlazorWebAppServerGlobal.Client.App;
+using NET9.BlazorWebAppServerGlobal.App;
+using NET9.BlazorWebAppServerGlobal.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<StudentService>();
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
@@ -16,7 +19,6 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAntiforgery();
 
 app.MapStaticAssets();

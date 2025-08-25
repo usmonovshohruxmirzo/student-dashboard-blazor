@@ -1,0 +1,65 @@
+﻿@page "/students"
+@using NET9.BlazorWebAppServerGlobal.Models
+@using NET9.BlazorWebAppServerGlobal.Services
+@inject StudentService StudentService
+
+<PageTitle>Students</PageTitle>
+
+<h1 class="page-title">Students</h1>
+
+<div class="search-bar">
+    <input type="text" placeholder="Search students..." @bind="searchTerm" />
+    <button @onclick="SearchStudents">Search</button>
+</div>
+
+<table class="students-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>GPA</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var student in FilteredStudents)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.FullName</td>
+            <td>@student.Gender</td>
+            <td>@student.Gpa</td>
+            <td><span class="badge @(StatusColor(student.Status))">@student.Status</span></td>
+            <td>
+                <button class="delete-btn" @onclick="() => DeleteStudent(student.Id)">Delete</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    private string searchTerm = string.Empty;
+
+    private IEnumerable<Student> FilteredStudents => string.IsNullOrWhiteSpace(searchTerm)
+        ? StudentService.GetStudents()
+        : StudentService.GetStudents()
+            .Where(s => s.FullName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
+
+    string StatusColor(string status) => status switch
+    {
+        "Active" => "badge-success",
+        "Inactive" => "badge-fail",
+        _ => "badge-default"
+    };
+
+    private void SearchStudents() => StateHasChanged();
+
+    private void DeleteStudent(int id)
+    {
+        StudentService.DeleteStudent(id);
+        StateHasChanged();
+    }
+}

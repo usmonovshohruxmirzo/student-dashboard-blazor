@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazor.Bootstrap" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Presentation\App.razor" />
+    <AdditionalFiles Include="Presentation\Components\Header.razor" />
+    <AdditionalFiles Include="Presentation\Components\Sidebar.razor" />
+    <AdditionalFiles Include="Presentation\Layout\AuthLayout.razor" />
+    <AdditionalFiles Include="Presentation\Layout\MainLayout.razor" />
+    <AdditionalFiles Include="Presentation\Pages\AddStudent.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Dashboard.razor" />
+    <AdditionalFiles Include="Presentation\Pages\EditStudent.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Error.razor" />
+    <AdditionalFiles Include="Presentation\Pages\GradesSummary.razor" />
+    <AdditionalFiles Include="Presentation\Pages\ImportExport.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Login.razor" />
+    <AdditionalFiles Include="Presentation\Pages\NotFound.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Profile.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Reports.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Scores.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Settings.razor" />
+    <AdditionalFiles Include="Presentation\Pages\SignUp.razor" />
+    <AdditionalFiles Include="Presentation\Pages\StudentDetails.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Students.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Subjects.razor" />
+    <AdditionalFiles Include="Presentation\Pages\Unauthorized.razor" />
+    <AdditionalFiles Include="Presentation\Routes.razor" />
+    <AdditionalFiles Include="Presentation\_Imports.razor" />
+  </ItemGroup>
+</Project>

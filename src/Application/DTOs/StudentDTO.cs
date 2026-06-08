@@ -2,9 +2,11 @@ using StudentManagement.Domain.Enums;
 
 namespace StudentManagement.Application.DTOs;
 
-public sealed record StudentDto(
-    int Id,
-    string Name,
-    Gender Gender,
-    decimal Gpa,
-    StudentStatus Status);
+public class StudentDto
+{
+  public int Id { get; set; }
+  public string Name { get; set; } = string.Empty;
+  public Gender Gender { get; set; }
+  public decimal Gpa { get; set; }
+  public StudentStatus Status { get; set; }
+}

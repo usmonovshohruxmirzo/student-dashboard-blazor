@@ -83,12 +83,13 @@ public sealed class StudentService : IStudentService
 
   private static StudentDto Map(Student s)
   {
-    return new StudentDto(
-        s.Id,
-        s.Name,
-        s.Gender,
-        s.Gpa,
-        s.Status
-    );
+    return new StudentDto
+    {
+      Id = s.Id,
+      Name = s.Name,
+      Gender = s.Gender,
+      Gpa = s.Gpa,
+      Status = s.Status
+    };
   }
 }

@@ -1,6 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 using StudentManagement.Domain.Enums;
 
+namespace StudentManagement.Application.DTOs;
+
 public class CreateStudentDto
 {
     [Required(ErrorMessage = "Name is required")]
